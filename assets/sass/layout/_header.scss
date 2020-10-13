@@ -1,0 +1,31 @@
+
+%titulo{
+    font-style: italic;
+    font-weight: $regular;
+    font-size: $tamanoTitulo;
+    font-family: $playfair;
+}
+
+
+
+.header{
+    
+      .header__Div{
+        background-image: url(../img/portada.jpg);//hay que colocar la ruta como si uno estubiera en css, sino no la encuentra
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        height: $altura-completa;
+        padding-top: 230px;
+        //padding: 220px 250px 0px 250px;
+        /*.headerfoto{
+            max-width: 100%;
+            height: 400px;
+        }*/
+        
+    }
+    .header__Icono{
+        font-size: $tamanoTitulo;
+        padding-top: 170px;
+    }
+}

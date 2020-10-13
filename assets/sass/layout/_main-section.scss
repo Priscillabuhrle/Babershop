@@ -1,0 +1,58 @@
+//seccion texto
+.contenedorTexto{
+    .conTexto{
+        .tituloTexto{
+            font-size: $tamañoTexto;
+        }
+        .cuerpoTexto{
+            font-size: $tamañoTexto;
+            line-height:$line-height;
+            .textoRojo{
+                color: $colorRojo;
+            }
+        }
+    }
+}
+
+
+//seccion mujer y link
+
+%centrar{
+    display: block;
+    margin: auto;
+}
+.contenedor1{
+    .contenedor2{
+        .imgMujer{
+            @extend %centrar;
+            width: 200px;
+        }
+    }
+    .contenedorLink{
+        .linkTitulo{
+            font-family: $playfair;
+            font-style: italic;
+        }
+        .link{
+            color: #F69DBC;
+            
+        }
+    }
+    .contenedorTextoMujer{
+        .textMujer{
+            line-height: $line-height;
+        }
+    }
+}
+
+//botones multiples
+
+.botonMultiple{
+    .botonMultiple__div{
+        .botonMultiple__item{
+            background-color: $colorBalnco;
+            border: solid 1px $colorGris;
+        }
+    }
+}
+

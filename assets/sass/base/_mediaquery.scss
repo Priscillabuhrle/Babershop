@@ -1,0 +1,24 @@
+@include media-breakpoint-up(md) { 
+    .header__Text{
+        font-size: $tamanoTitulo2 !important;
+    }
+    .header__Div{
+        padding: 100px 350px 0px 350px;
+    }
+    .tituloTexto{
+        font-size: $veintepx !important;
+    }
+    .cuerpoTexto{
+        font-size: $diecisietepx !important;
+    }
+    .textMujer{
+        font-size: $diecisietepx !important;
+    }
+    .botones__button{
+        float: left;
+    }
+    .header__Icono{
+        font-size: $cincuentapx !important;
+        padding-top: 200px !important;
+    }
+  }

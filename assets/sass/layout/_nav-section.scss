@@ -1,0 +1,13 @@
+.nav{
+    .nav__Div{
+        .nav__Img{
+            width: $tamanoLogo;
+        }
+        .nav__Item{
+            &:hover{
+                color:$colorAmarillo;
+            }
+        }
+    }
+}
+
